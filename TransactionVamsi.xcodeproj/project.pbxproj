@@ -14,13 +14,14 @@
 		8AA628E319CA90E500EEA57F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA628E219CA90E500EEA57F /* main.m */; };
 		8AA628E719CA90E500EEA57F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA628E619CA90E500EEA57F /* AppDelegate.m */; };
 		8AA628EA19CA90E500EEA57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA628E819CA90E500EEA57F /* Main.storyboard */; };
-		8AA628ED19CA90E500EEA57F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA628EC19CA90E500EEA57F /* ViewController.m */; };
 		8AA628EF19CA90E500EEA57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA628EE19CA90E500EEA57F /* Images.xcassets */; };
 		8AA628F619CA90E500EEA57F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA628F519CA90E500EEA57F /* XCTest.framework */; };
 		8AA628F719CA90E500EEA57F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA628D619CA90E500EEA57F /* Foundation.framework */; };
 		8AA628F819CA90E500EEA57F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AA628DA19CA90E500EEA57F /* UIKit.framework */; };
 		8AA6290019CA90E500EEA57F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8AA628FE19CA90E500EEA57F /* InfoPlist.strings */; };
 		8AA6290219CA90E500EEA57F /* TransactionVamsiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6290119CA90E500EEA57F /* TransactionVamsiTests.m */; };
+		8AA6290D19CA91F700EEA57F /* AmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6290C19CA91F700EEA57F /* AmountViewController.m */; };
+		8AA6291019CA921300EEA57F /* TransactionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA6290F19CA921300EEA57F /* TransactionTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,16 @@
 		8AA628E519CA90E500EEA57F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8AA628E619CA90E500EEA57F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8AA628E919CA90E500EEA57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8AA628EB19CA90E500EEA57F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA628EC19CA90E500EEA57F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8AA628EE19CA90E500EEA57F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8AA628F419CA90E500EEA57F /* TransactionVamsiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionVamsiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA628F519CA90E500EEA57F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8AA628FD19CA90E500EEA57F /* TransactionVamsiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransactionVamsiTests-Info.plist"; sourceTree = "<group>"; };
 		8AA628FF19CA90E500EEA57F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8AA6290119CA90E500EEA57F /* TransactionVamsiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionVamsiTests.m; sourceTree = "<group>"; };
+		8AA6290B19CA91F700EEA57F /* AmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AmountViewController.h; path = ../AmountViewController.h; sourceTree = "<group>"; };
+		8AA6290C19CA91F700EEA57F /* AmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AmountViewController.m; path = ../AmountViewController.m; sourceTree = "<group>"; };
+		8AA6290E19CA921300EEA57F /* TransactionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TransactionTableViewController.h; path = ../TransactionTableViewController.h; sourceTree = "<group>"; };
+		8AA6290F19CA921300EEA57F /* TransactionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TransactionTableViewController.m; path = ../TransactionTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +118,10 @@
 				8AA628E519CA90E500EEA57F /* AppDelegate.h */,
 				8AA628E619CA90E500EEA57F /* AppDelegate.m */,
 				8AA628E819CA90E500EEA57F /* Main.storyboard */,
-				8AA628EB19CA90E500EEA57F /* ViewController.h */,
-				8AA628EC19CA90E500EEA57F /* ViewController.m */,
+				8AA6290E19CA921300EEA57F /* TransactionTableViewController.h */,
+				8AA6290F19CA921300EEA57F /* TransactionTableViewController.m */,
+				8AA6290B19CA91F700EEA57F /* AmountViewController.h */,
+				8AA6290C19CA91F700EEA57F /* AmountViewController.m */,
 				8AA628EE19CA90E500EEA57F /* Images.xcassets */,
 				8AA628DD19CA90E500EEA57F /* Supporting Files */,
 			);
@@ -249,8 +254,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA628ED19CA90E500EEA57F /* ViewController.m in Sources */,
+				8AA6291019CA921300EEA57F /* TransactionTableViewController.m in Sources */,
 				8AA628E719CA90E500EEA57F /* AppDelegate.m in Sources */,
+				8AA6290D19CA91F700EEA57F /* AmountViewController.m in Sources */,
 				8AA628E319CA90E500EEA57F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
